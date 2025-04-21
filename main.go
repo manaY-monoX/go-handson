@@ -11,5 +11,7 @@ func main() {
 	// chapter02.Exe2_4()
 	// chapter03.Exe3_1()
 	// chapter03.Exe3_2()
-	chapter03.Exe3_3()
+	// chapter03.Exe3_3()
+	// chapter03.Exe3_4()
+	chapter03.Exe3_5()
 }
