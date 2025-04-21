@@ -5,17 +5,35 @@ package chapter04
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
 )
 
 func Exe4_1() {
-	var num1 int
-	var num2 int
+	var input1, input2 string
+	var num1, num2 int
+	var err error
 
 	fmt.Print("整数1を入力してください:")
-	fmt.Scan(&num1)
+	fmt.Scan(&input1)
+	num1, err = strconv.Atoi(strings.TrimSpace(input1))
+	if err != nil {
+		fmt.Println("エラー: 整数を入力してください。")
+		return
+	}
 
 	fmt.Print("整数2を入力してください:")
-	fmt.Scan(&num2)
+	fmt.Scan(&input2)
+	num2, err = strconv.Atoi(strings.TrimSpace(input2))
+	if err != nil {
+		fmt.Println("エラー: 整数を入力してください。")
+		return
+	}
+
+	if num2 == 0 {
+		fmt.Println("エラー: 0で割ることはできません。")
+		return
+	}
 
 	sum, diff, prod, quot := calc4_namedReturn(num1, num2)
 
