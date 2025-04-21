@@ -1,11 +1,10 @@
 package main
 
-import (
-	// "exercise/chapter02"
-	// "exercise/chapter03"
-	// "exercise/chapter04"
-	"exercise/chapter05"
-)
+import "exercise/chapter06"
+
+// "exercise/chapter02"
+// "exercise/chapter03"
+// "exercise/chapter04"
 
 func main() {
 	// chapter02.Exe2_1()
@@ -24,5 +23,7 @@ func main() {
 	// chapter04.Exe4_1()
 	// chapter04.Exe4_3()
 
-	chapter05.Exe5_1()
+	// chapter05.Exe5_1()
+
+	chapter06.Exe6_1()
 }
