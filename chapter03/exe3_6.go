@@ -5,20 +5,19 @@ package chapter03
 
 import "fmt"
 
-type Employee struct {
+type Employee3_6 struct {
 	EmpNo   int // 社員番号
 	EmpName string
 }
 
 func Exe3_6() {
+	var employee = new(Employee3_6)
+
 	fmt.Print("社員番号を入力してください:")
-	var empNo int
-	fmt.Scan(&empNo)
+	fmt.Scan(&employee.EmpNo)
 
 	fmt.Print("社員名を入力してください:")
-	var empName string
-	fmt.Scan(&empName)
+	fmt.Scan(&employee.EmpName)
 
-	employee := Employee{EmpNo: empNo, EmpName: empName}
 	fmt.Println("\n社員番号:", employee.EmpNo, "\n社員名:", employee.EmpName)
 }
