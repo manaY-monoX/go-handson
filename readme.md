@@ -1,5 +1,7 @@
 # Go Hands on
 
+![go-hands](https://github.com/user-attachments/assets/b2581f85-526e-42b6-85ec-21a6bc72aeee)
+
 講義と演習で磨く、Go言語の基本から応用まで。株式会社FullnessのGo handson研修
 
 ## 概要
