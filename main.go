@@ -1,14 +1,13 @@
 package main
 
-import (
-	// "exercise/chapter02"
-	// "exercise/chapter03"
-	// "exercise/chapter04"
-	// "exercise/chapter06"
-	// "exercise/chapter07"
-	// "exercise/chapter08"
-	"exercise/chapter10"
-)
+// "exercise/chapter02"
+// "exercise/chapter03"
+// "exercise/chapter04"
+// "exercise/chapter06"
+// "exercise/chapter07"
+// "exercise/chapter08"
+// "exercise/chapter10"
+"exercise/chapter11"
 
 func main() {
 	// chapter02.Exe2_1()
@@ -36,5 +35,8 @@ func main() {
 
 	// chapter08.Exe8_1()
 	// chapter08.Exe8_2()
-	chapter10.Exe10_1()
+	// chapter10.Exe10_1()
+
+	// chapter11.Exe11_1()	//testを実行するとエラーが出る
+
 }
