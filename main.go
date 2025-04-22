@@ -42,6 +42,7 @@ func main() {
 
 	// chapter11.Exe11_1()	//testを実行するとエラーが出る
 
-	chapter12.Exe12_1()
+	// chapter12.Exe12_1()
+	chapter12.Exe12_2()
 
 }
