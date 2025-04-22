@@ -33,5 +33,6 @@ func main() {
 	// chapter07.Exe7_1()
 	// chapter07.Exe7_2()
 
-	chapter08.Exe8_1()
+	// chapter08.Exe8_1()
+	chapter08.Exe8_2()
 }

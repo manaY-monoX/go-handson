@@ -15,7 +15,7 @@ func Exe4_3() {
 func openFile() *os.File {
 	fmt.Println("ファイルを開く")
 	// ファイルを開く
-	file, err := os.OpenFile("exe4_3.txt", os.O_RDWR|os.O_CREATE, 0666)
+	file, err := os.OpenFile("./exe4_3.txt", os.O_RDWR|os.O_CREATE, 0666)
 	if err != nil {
 		fmt.Println(err)
 		return nil
