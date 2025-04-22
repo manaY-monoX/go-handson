@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func Sum(nums ...int) int {
+func Sum7_1(nums ...int) int {
 	sum := 0
 	for _, num := range nums {
 		sum += num
@@ -32,5 +32,5 @@ func Exe7_1() {
 
 		inputs = append(inputs, value)
 	}
-	fmt.Println("合計:", Sum(inputs...))
+	fmt.Println("合計:", Sum7_1(inputs...))
 }
